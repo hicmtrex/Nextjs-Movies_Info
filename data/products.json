@@ -1,0 +1,562 @@
+[
+  {
+    "_id": {
+      "$oid": "61b18ad2c80cfef9db8b09f5"
+    },
+    "title": "The Walking Dead",
+    "desc": "In the wake of a zombie apocalypse, various survivors struggle to stay alive. As they search for safety and evade the undead, they are forced to grapple with rival groups and difficult choices",
+    "img": "https://www.thathashtagshow.com/wp-content/uploads/2021/10/TWD.jpg",
+    "imgSm": "https://images-na.ssl-images-amazon.com/images/I/91ye1dupRXS._RI_.jpg",
+    "imgTitle": "https://heavy.com/wp-content/uploads/2017/07/screen-shot-2017-07-22-at-12-41-03-am-e114.99 704141223.jpg?quality=65&strip=all",
+    "trailer": "https://www.youtube.com/watch?v=sfAc2U20uyg&t=1s&ab_channel=TrailerBlend",
+    "video": "https://www.youtube.com/watch?v=sfAc2U20uyg&t=1s&ab_channel=TrailerBlend",
+    "year": "2010",
+    "limit": 12,
+    "genre": "Horror ",
+    "isSeries": true,
+    "rating": 8.2,
+    "ratingStar": 4,
+    "numReviews": 0,
+    "price": 14.95,
+    "countInStock": 10,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2021-12-09T04:49:22.534Z"
+    },
+    "updatedAt": {
+      "$date": "2021-12-09T04:49:22.534Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "61b18ad2c80cfef9db8b09f6"
+    },
+    "title": "Breaking Bad",
+    "desc": "Walter White, a chemistry teacher, discovers that he has cancer and decides to get into the meth-making business to repay his medical debts. His priorities begin to change when he partners with Jesse.",
+    "img": "https://www.usmagazine.com/wp-content/uploads/2020/08/Breaking-Bad-Where-Are-They-Now.jpg?quality=86&strip=all",
+    "imgSm": "http://www.asud.org/wp-content/themes/yootheme/cache/Breaking-bad-6e067632.jpeg",
+    "imgTitle": "http://content.cpcache.com/popup/img/breakingbad-large-logo.png",
+    "trailer": "https://www.youtube.com/watch?v=HhesaQXLuRY&t=5s&ab_channel=TrailerBlend",
+    "video": "https://www.youtube.com/watch?v=HhesaQXLuRY&t=5s&ab_channel=TrailerBlend",
+    "year": "2008",
+    "limit": 15,
+    "genre": "drama ",
+    "isSeries": true,
+    "rating": 9.4,
+    "ratingStar": 4,
+    "numReviews": 0,
+    "price": 16.99,
+    "countInStock": 10,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2021-12-09T04:49:22.534Z"
+    },
+    "updatedAt": {
+      "$date": "2021-12-09T04:49:22.534Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "61b18ad2c80cfef9db8b09f7"
+    },
+    "title": "Kill Bill",
+    "desc": "A pregnant assassin, code-named The Bride, goes into a coma for four years after her ex-boss Bill brutally attacks her. When she wakes up, she sets out to seek revenge on him and his associates",
+    "img": "https://www.indiewire.com/wp-content/uploads/2018/02/kill-bill-uma-thurman.jpg",
+    "imgSm": "https://i.ytimg.com/vi/c_dNIXwrbzY/maxresdefault.jpg",
+    "imgTitle": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Kill_Bill_%28logo%29.png",
+    "trailer": "https://www.youtube.com/watch?v=7kSuas6mRpk&t=10s&ab_channel=MovieclipsClassicTrailers",
+    "video": "https://www.youtube.com/watch?v=sYq_Jpxdq2A&t=8s&ab_channel=MartinTarantino",
+    "year": "2003",
+    "limit": 18,
+    "genre": "Action/Crime",
+    "isSeries": false,
+    "rating": 8.1,
+    "ratingStar": 3,
+    "numReviews": 0,
+    "price": 14.99,
+    "countInStock": 12,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2021-12-09T04:49:22.535Z"
+    },
+    "updatedAt": {
+      "$date": "2021-12-09T04:49:22.535Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "61b18ad2c80cfef9db8b09f8"
+    },
+    "title": "I Am Legend",
+    "desc": "Robert Neville, a scientist, is the last human survivor of a plague in the whole of New York. He attempts to find a way to reverse the effects of the man-made virus by using his own immune blood.",
+    "img": "https://images.metadata.sky.com/pd-image/c4cdb0e7-9bd2-4882-81d7-08c216e1986e/16-9",
+    "imgSm": "https://www.innovationwarrior.com/wp-content/uploads/1628555458_0x0.jpg",
+    "imgTitle": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/I_am_legend.svg/1280px-I_am_legend.svg.png",
+    "trailer": "https://www.youtube.com/watch?v=BHZKSYLAecQ&ab_channel=Movieclips",
+    "video": "https://www.youtube.com/watch?v=er6wSXJC57U&ab_channel=Movieclips",
+    "year": "2007",
+    "limit": 12,
+    "genre": "Sci-fi/Horror",
+    "isSeries": false,
+    "rating": 7.2,
+    "ratingStar": 3,
+    "numReviews": 0,
+    "price": 14.99,
+    "countInStock": 12,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2021-12-09T04:49:22.535Z"
+    },
+    "updatedAt": {
+      "$date": "2021-12-09T04:49:22.535Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "61b18ad2c80cfef9db8b09f9"
+    },
+    "title": "Wind River",
+    "desc": "Cory Lambert is a wildlife officer who finds the body of an 18-year-old woman on an American Indian reservation in snowy Wyoming. When the autopsy reveals that she was raped, FBI agent Jane Banner arrives to investigate. Teaming up with Lambert as a guide, the duo soon find that their lives are in danger while trying to solve the Mystery of the teen's death.",
+    "img": "https://wallpapercave.com/wp/wp2108695.jpg",
+    "imgSm": "https://www.afcinema.com/IMG/arton11905.jpg?1513072432",
+    "imgTitle": "https://images.squarespace-cdn.com/content/v1/54c0d708e4b0c9e8d13.95f4106/1506586867018-3D3QJB2EP6K50JYH284D/Wind+River+title.png",
+    "trailer": "https://www.youtube.com/watch?v=s7WuKdVhrmA&t=11s&ab_channel=KinoCheckInternational",
+    "video": "https://www.youtube.com/watch?v=7AxWVLSvnWQ&ab_channel=ShamusBob",
+    "year": "2017",
+    "limit": 12,
+    "genre": "Mystery/Thriller",
+    "isSeries": false,
+    "rating": 7.7,
+    "ratingStar": 3,
+    "numReviews": 0,
+    "price": 14.99,
+    "countInStock": 12,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2021-12-09T04:49:22.535Z"
+    },
+    "updatedAt": {
+      "$date": "2021-12-09T04:49:22.535Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "61b18ad2c80cfef9db8b09fa"
+    },
+    "title": "Silent Hill",
+    "desc": "Rose and her daughter, Sharon, leave their house to go to Silent Hill. On their way Rose meets with an accident knocking her unconscious and when she awakes, Sharon is missing.",
+    "img": "https://d2skuhm0vrry40.cloudfront.net/2020/articles/2020-05-21-12-20/64889.jpg/EG11/thumbnail/732x412/format/jpg/quality/50",
+    "imgSm": "https://www.denofgeek.com/wp-content/uploads/2012/10/silent_poster.jpg?fit=640%2C380",
+    "imgTitle": "https://famfonts.com/wp-content/uploads/silent-hill-wide.png",
+    "trailer": "https://www.youtube.com/watch?v=1mfnhu8sO5k&t=15s&ab_channel=UniFrance",
+    "video": "https://www.youtube.com/watch?v=1mfnhu8sO5k&t=15s&ab_channel=UniFrance",
+    "year": "2006",
+    "limit": 5,
+    "genre": "Horror/Thriller",
+    "isSeries": false,
+    "rating": 6.5,
+    "ratingStar": 3,
+    "numReviews": 0,
+    "price": 12.99,
+    "countInStock": 12,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2021-12-09T04:49:22.535Z"
+    },
+    "updatedAt": {
+      "$date": "2021-12-09T04:49:22.535Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "61b18ad2c80cfef9db8b09fb"
+    },
+    "title": "Inception",
+    "desc": "Cobb steals information from his targets by entering their dreams. Saito offers to wipe clean Cobb's criminal history as payment for performing an inception on his sick competitor's son.",
+    "img": "https://www.highlandernews.org/wp-content/uploads/radar.inception.warnerbrospictures.jpg",
+    "imgSm": "https://c4.wallpaperflare.com/wallpaper/574/531/642/2010-inception-movie-inception-poster-wallpaper-preview.jpg",
+    "imgTitle": "https://i.pinimg.com/originals/a3/74/11/a374112bb9ca9c934578f2feedc62bc3.jpg",
+    "trailer": "https://www.youtube.com/watch?v=YoHD9XEInc0&t=21s",
+    "video": "https://www.youtube.com/watch?v=YoHD9XEInc0&t=21s,",
+    "year": "2010",
+    "limit": 12,
+    "genre": "Mystery",
+    "isSeries": false,
+    "rating": 8.8,
+    "ratingStar": 3,
+    "numReviews": 0,
+    "price": 14.99,
+    "countInStock": 12,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2021-12-09T04:49:22.535Z"
+    },
+    "updatedAt": {
+      "$date": "2021-12-09T04:49:22.535Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "61b18ad2c80cfef9db8b09fc"
+    },
+    "title": "Lost",
+    "desc": "The survivors of a plane crash find themselves stranded on a mysterious island. They are forced to work together for their survival when they realise that they are not alone on the island.",
+    "img": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/lost-cast-season-6-1551272858.jpg",
+    "imgSm": "http://nerdreactor.com/wp-content/uploads/2016/10/LOST-Crew-Poster.jpg",
+    "imgTitle": "https://static1.colliderimages.com/wordpress/wp-content/uploads/lost-title-logo-slice.jpg",
+    "trailer": "https://www.youtube.com/watch?v=KTu8iDynwNc&t=7s&ab_channel=TrailerBlend",
+    "video": "https://www.youtube.com/watch?v=KTu8iDynwNc&t=7s&ab_channel=TrailerBlend",
+    "year": "13.958",
+    "limit": 12,
+    "genre": "Mystery",
+    "isSeries": true,
+    "rating": 8.3,
+    "ratingStar": 4,
+    "numReviews": 0,
+    "price": 9.99,
+    "countInStock": 10,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2021-12-09T04:49:22.535Z"
+    },
+    "updatedAt": {
+      "$date": "2021-12-09T04:49:22.535Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "61b18ad2c80cfef9db8b09fd"
+    },
+    "title": "Game of Thrones",
+    "desc": "Nine noble families wage war against each other in order to gain control over the mythical land of Westeros. Meanwhile, a force is rising after millenniums and threatens the existence of living men.",
+    "img": "https://wallpapercave.com/wp/wp4275032.jpg",
+    "imgSm": "https://i.pinimg.com/originals/82/01/5c/82015cc18436c4514c02e1be5e9667cb.jpg",
+    "imgTitle": "https://static1.colliderimages.com/wordpress/wp-content/uploads/lost-title-logo-slice.jpg",
+    "trailer": "https://www.youtube.com/watch?v=KPLWWIOCOOQ&t=2s&ab_channel=GameofThrones",
+    "video": "https://www.youtube.com/watch?v=KPLWWIOCOOQ&t=2s&ab_channel=GameofThrones",
+    "year": "2011",
+    "limit": 18,
+    "genre": "Fantasy",
+    "isSeries": true,
+    "rating": 9.2,
+    "ratingStar": 4,
+    "numReviews": 0,
+    "price": 19.99,
+    "countInStock": 10,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2021-12-09T04:49:22.535Z"
+    },
+    "updatedAt": {
+      "$date": "2021-12-09T04:49:22.535Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "61b18ad2c80cfef9db8b09fe"
+    },
+    "title": "The Shining",
+    "desc": "Jack and his family move into an isolated hotel with a violent past. Living in isolation, Jack begins to lose his sanity, which affects his family members.",
+    "img": "https://images2.minutemediacdn.com/image/upload/c_crop,h_1279,w_2274,x_0,y_133/v1554714.99 619/shape/mentalfloss/55893-warner_home_video3.jpg?itok=iVYyXTvI",
+    "imgSm": "https://l.cimalight.io:2053/uploads/thumbs/fe68163bc-1.jpg",
+    "imgTitle": "https://heavy.com/wp-content/uploads/2017/07/screen-shot-2017-07-22-at-12-41-03-am-e114.99 704141223.jpg?quality=65&strip=all",
+    "trailer": "https://www.youtube.com/watch?v=5Cb3ik6zP2I&t=63s&ab_channel=AndrewHenderson",
+    "video": "https://www.youtube.com/watch?v=WDpipB4yehk&t=8s&ab_channel=Movieclips",
+    "year": "1980",
+    "limit": 15,
+    "genre": "Horror ",
+    "isSeries": false,
+    "rating": 8.5,
+    "ratingStar": 3,
+    "numReviews": 0,
+    "price": 7.99,
+    "countInStock": 12,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2021-12-09T04:49:22.536Z"
+    },
+    "updatedAt": {
+      "$date": "2021-12-09T04:49:22.536Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "61b18ad2c80cfef9db8b09ff"
+    },
+    "title": "The Conjuring",
+    "desc": "Paranormal investigators Ed and Lorraine Warren take on one of the most sensational cases of their careers after a cop stumbles upon a dazed and bloodied young man walking down the road. Accused of murder, the suspect claims demonic possession as his defense, forcing the Warrens into a supernatural inquiry unlike anything they've ever seen before.",
+    "img": "https://www.screengeek.net/wp-content/uploads/2020/05/the-conjuring-franchise.jpg",
+    "imgSm": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxl0dqZw2OVug8qTeOH84yI2tncSlvigZqOJCBv1-oaVePqXmTVnwdOHi2Mktpw4-R6MQ&usqp=CAU",
+    "imgTitle": "https://heavy.com/wp-content/uploads/2017/07/screen-shot-2017-07-22-at-12-41-03-am-e114.99 704141223.jpg?quality=65&strip=all",
+    "trailer": "https://www.youtube.com/watch?v=ejMMn0t58Lc&ab_channel=MovieclipsTrailers",
+    "video": "https://www.youtube.com/watch?v=ejMMn0t58Lc&ab_channel=MovieclipsTrailers",
+    "year": "2013",
+    "limit": 18,
+    "genre": "Horror/Thriller",
+    "isSeries": false,
+    "rating": 7.5,
+    "ratingStar": 3,
+    "numReviews": 0,
+    "price": 13.99,
+    "countInStock": 12,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2021-12-09T04:49:22.536Z"
+    },
+    "updatedAt": {
+      "$date": "2021-12-09T04:49:22.536Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "61b18ad2c80cfef9db8b0a00"
+    },
+    "title": "I Care a Lot",
+    "desc": "A shady legal guardian lands in hot water when she tries to bilk a woman who has ties to a powerful gangster.",
+    "img": "https://images.squarespace-cdn.com/content/v1/13.95d7e2c7e45a7c0ce235bb55/1614034945581-KVT48ECNPNE7YXY2V4MB/Film-Review-I-Care-a-Lot.jpg",
+    "imgSm": "https://i.ytimg.com/vi/Z229VfggE9A/maxresdefault.jpg",
+    "imgTitle": "https://heavy.com/wp-content/uploads/2017/07/screen-shot-2017-07-22-at-12-41-03-am-e114.99 704141223.jpg?quality=65&strip=all",
+    "trailer": "https://www.youtube.com/watch?v=fu6LX4Ieasg&ab_channel=MovieclipsTrailers",
+    "video": "https://www.youtube.com/watch?v=fu6LX4Ieasg&ab_channel=MovieclipsTrailers",
+    "year": "2020",
+    "limit": 12,
+    "genre": "Thriller/Comedy",
+    "isSeries": false,
+    "rating": 6.3,
+    "ratingStar": 3,
+    "numReviews": 0,
+    "price": 14.99,
+    "countInStock": 12,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2021-12-09T04:49:22.536Z"
+    },
+    "updatedAt": {
+      "$date": "2021-12-09T04:49:22.536Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "61b18ad2c80cfef9db8b0a01"
+    },
+    "title": "Peaky Blinders",
+    "desc": "Tommy Shelby, a dangerous man, leads the Peaky Blinders, a gang based in Birmingham. Soon, Chester Campbell, an inspector, decides to nab him and put an end to the criminal activities.",
+    "img": "https://imgsrc.cineserie.com/2021/05/peaky-blinders-online.jpg?ver=1",
+    "imgSm": "https://occ-0-1068-92.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABRoYi2Uj7N3k31VOnTVwaks7DbSGY55UhHnWpMoFNQ6xsbhgZI5Gczvt0zczmbl56ibP6czQOqroLXwNM41PDRPMhi-7z4KnAB6SBID35b0nt7Fkp7pFEAe7xKd6_Q.jpg?r=c9a",
+    "imgTitle": "https://heavy.com/wp-content/uploads/2017/07/screen-shot-2017-07-22-at-12-41-03-am-e114.99 704141223.jpg?quality=65&strip=all",
+    "trailer": "https://www.youtube.com/watch?v=oVzVdvGIC7U&t=7s&ab_channel=Alextvshows",
+    "video": "https://www.youtube.com/watch?v=oVzVdvGIC7U&t=7s&ab_channel=Alextvshows",
+    "year": "2013",
+    "limit": 12,
+    "genre": "Drama",
+    "isSeries": true,
+    "rating": 8.8,
+    "ratingStar": 4,
+    "numReviews": 0,
+    "price": 18.99,
+    "countInStock": 10,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2021-12-09T04:49:22.536Z"
+    },
+    "updatedAt": {
+      "$date": "2021-12-09T04:49:22.536Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "61b18ad2c80cfef9db8b0a02"
+    },
+    "title": "La Casa De Papel",
+    "desc": "A criminal mastermind who goes by \"The Professor\" has a plan to pull off the biggest heist in recorded history -- to print billions of euros in the Royal Mint of Spain. To help him carry out the ambitious plan, he recruits eight people with certain abilities and who have nothing to lose. The group of thieves take hostages to aid in their negotiations with the authorities, who strategize to come up with a way to capture The Professor. As more time elapses, the robbers prepare for a showdown with the police",
+    "img": "https://wallpapercave.com/wp/wp6581266.jpg",
+    "imgSm": "https://cdn.shopify.com/s/files/1/0969/9128/products/LaCasaDePapel-MoneyHeist-NetflixTVShowPosterFanArt_be2a88ac-7484-485c-8fa5-a499f5df3483.jpg?v=1589268448",
+    "imgTitle": "https://heavy.com/wp-content/uploads/2017/07/screen-shot-2017-07-22-at-12-41-03-am-e114.99 704141223.jpg?quality=65&strip=all",
+    "trailer": "https://www.youtube.com/watch?v=htqXL94Rza4&t=16s&ab_channel=Netflix",
+    "video": "https://www.youtube.com/watch?v=htqXL94Rza4&t=16s&ab_channel=Netflix",
+    "year": "2017",
+    "limit": 18,
+    "genre": "Thriller",
+    "isSeries": true,
+    "rating": 8.3,
+    "ratingStar": 4,
+    "numReviews": 0,
+    "price": 11.99,
+    "countInStock": 10,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2021-12-09T04:49:22.536Z"
+    },
+    "updatedAt": {
+      "$date": "2021-12-09T04:49:22.536Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "61b18ad2c80cfef9db8b0a03"
+    },
+    "title": "Friends",
+    "desc": "Follow the lives of six reckless adults living in Manhattan, as they indulge in adventures which make their lives both troublesome and happening.",
+    "img": "https://c.files.bbci.co.uk/22AC/production/_118667880_ka_05_friendsreunion.jpg",
+    "imgSm": "https://www.sortiraparis.com/images/80/66131/643118-serie-friends-l-episode-retrouvailles-avec-justin-bieber-et-lady-gaga-diffuse-le.jpg",
+    "imgTitle": "https://heavy.com/wp-content/uploads/2017/07/screen-shot-2017-07-22-at-12-41-03-am-e114.99 704141223.jpg?quality=65&strip=all",
+    "trailer": "https://www.youtube.com/watch?v=hDNNmeeJs1Q&t=7s",
+    "video": "https://www.youtube.com/watch?v=hDNNmeeJs1Q&t=7s",
+    "year": "1994",
+    "limit": 12,
+    "genre": "Comeday",
+    "isSeries": true,
+    "rating": 8.9,
+    "ratingStar": 4,
+    "numReviews": 0,
+    "price": 6.99,
+    "countInStock": 10,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2021-12-09T04:49:22.537Z"
+    },
+    "updatedAt": {
+      "$date": "2021-12-09T04:49:22.537Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "61b18ad2c80cfef9db8b0a04"
+    },
+    "title": "Django Unchained",
+    "desc": "When Django, a slave, is freed, he joins forces with a bounty hunter to rescue his wife, who has been enslaved by Calvin, a hard-hearted plantation owner.",
+    "img": "https://pickywallpapers.com/img/2018/12/django-unchained-movie-wide-wallpaper-93-100-hd-wallpapers.jpg",
+    "imgSm": "https://www.denofgeek.com/wp-content/uploads/2012/12/django-unchained-wallpapers-1920x1200-4.jpg?fit=1920%2C1200",
+    "imgTitle": "https://heavy.com/wp-content/uploads/2017/07/screen-shot-2017-07-22-at-12-41-03-am-e114.99 704141223.jpg?quality=65&strip=all",
+    "trailer": "https://www.youtube.com/watch?v=_iH0UBYDI4g&ab_channel=SonyPicturesEntertainment",
+    "video": "https://www.youtube.com/watch?v=_iH0UBYDI4g&ab_channel=SonyPicturesEntertainment",
+    "year": "2012",
+    "limit": 12,
+    "genre": "Action ",
+    "isSeries": false,
+    "rating": 8.4,
+    "ratingStar": 3,
+    "numReviews": 0,
+    "price": 13.95,
+    "countInStock": 12,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2021-12-09T04:49:22.537Z"
+    },
+    "updatedAt": {
+      "$date": "2021-12-09T04:49:22.537Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "61b18ad2c80cfef9db8b0a05"
+    },
+    "title": "Dexter",
+    "desc": "While Dexter tries to reconnect with Debra, Miami Metro investigates a new serial killer.",
+    "img": "https://www.teahub.io/photos/full/14.99 -14.99 9202_high-resolution-dexter-hd-wallpaper-id-dexter-morgan.jpg",
+    "imgSm": "https://images-na.ssl-images-amazon.com/images/S/pv-target-images/216bc6a847537fc829eef48ff1c7a1c33b7f98ba225ac734ff3c61570488b979._RI_V_TTW_.jpg",
+    "imgTitle": "https://heavy.com/wp-content/uploads/2017/07/screen-shot-2017-07-22-at-12-41-03-am-e114.99 704141223.jpg?quality=65&strip=all",
+    "trailer": "https://www.youtube.com/watch?v=sfAc2U20uyg&t=1s&ab_channel=TrailerBlend",
+    "video": "https://www.youtube.com/watch?v=sfAc2U20uyg&t=1s&ab_channel=TrailerBlend",
+    "year": "13.956",
+    "limit": 18,
+    "genre": "Mystery",
+    "isSeries": true,
+    "rating": 8.6,
+    "ratingStar": 4,
+    "numReviews": 0,
+    "price": 18.95,
+    "countInStock": 10,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2021-12-09T04:49:22.537Z"
+    },
+    "updatedAt": {
+      "$date": "2021-12-09T04:49:22.537Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "61b18ad2c80cfef9db8b0a06"
+    },
+    "title": "The Sopranos",
+    "desc": "ITony Soprano, an Italian-American mafia head based in New Jersey, struggles to manage his family and criminal life and confides his affairs to his psychiatrist Jennifer Melfi.",
+    "img": "https://m.media-amazon.com/images/M/MV5BM2NmZDNmYTItZGM0OS00NDVmLTgwMjUtZDdmYjg0OWNiODE2XkEyXkFqcGdeQXVyNDIyNjA2MTk@._V1_.jpg",
+    "imgSm": "https://lrmonline.com/wp-content/uploads/2018/03/the-sopranos-blu-ray-finally-arrives.jpg",
+    "imgTitle": "https://heavy.com/wp-content/uploads/2017/07/screen-shot-2017-07-22-at-12-41-03-am-e114.99 704141223.jpg?quality=65&strip=all",
+    "trailer": "https://www.youtube.com/watch?v=dHa95iy2lF0&ab_channel=WarnerBros.Pictures",
+    "video": "https://www.youtube.com/watch?v=dHa95iy2lF0&ab_channel=WarnerBros.Pictures",
+    "year": "1999",
+    "limit": 18,
+    "genre": "Drama  ",
+    "isSeries": true,
+    "rating": 9.2,
+    "ratingStar": 4,
+    "numReviews": 0,
+    "price": 11.95,
+    "countInStock": 10,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2021-12-09T04:49:22.537Z"
+    },
+    "updatedAt": {
+      "$date": "2021-12-09T04:49:22.537Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "61b18ad2c80cfef9db8b0a07"
+    },
+    "title": "The Dark Knight",
+    "desc": "After Gordon, Dent and Batman begin an assault on Gotham's organised crime, the mobs hire the Joker, a psychopathic criminal mastermind who offers to kill Batman and bring the city to its knees.",
+    "img": "https://i.pinimg.com/originals/1e/1f/31/1e1f3119f45bf518c55ad81e5695c169.jpg",
+    "imgSm": "https://cdn.prime1studio.com/media/catalog/product/cache/1/image/1400x1400/17f82f742ffe127f42dca9de82fb58b1/h/d/hdmmdc-02_a19.jpg",
+    "imgTitle": "https://heavy.com/wp-content/uploads/2017/07/screen-shot-2017-07-22-at-12-41-03-am-e114.99 704141223.jpg?quality=65&strip=all",
+    "trailer": "https://www.youtube.com/watch?v=EXeTwQWrcwY&ab_channel=MovieclipsClassicTrailers",
+    "video": "https://www.youtube.com/watch?v=EXeTwQWrcwY&ab_channel=MovieclipsClassicTrailers",
+    "year": "13.958",
+    "limit": 12,
+    "genre": " Action/Adventure",
+    "isSeries": false,
+    "rating": 9,
+    "ratingStar": 3,
+    "numReviews": 0,
+    "price": 12.99,
+    "countInStock": 12,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2021-12-09T04:49:22.537Z"
+    },
+    "updatedAt": {
+      "$date": "2021-12-09T04:49:22.537Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "61b18ad2c80cfef9db8b0a08"
+    },
+    "title": "Predestination",
+    "desc": "As his last assignment, a temporal agent is tasked to travel back in time and prevent a bomb attack in New York in 1975. The hunt, however, turns out to be beyond the bounds of possibility.",
+    "img": "https://themoviemylife.files.wordpress.com/2014/11/screen-shot-2014-11-13-at-14-43-38.png",
+    "imgSm": "http://www.kissmygeek.com/wp-content/uploads/2014/12/Predestination-banner3.jpg",
+    "imgTitle": "https://heavy.com/wp-content/uploads/2017/07/screen-shot-2017-07-22-at-12-41-03-am-e114.99 704141223.jpg?quality=65&strip=all",
+    "trailer": "https://www.youtube.com/watch?v=xxG-YfedrfU&ab_channel=SonyPicturesEntertainment",
+    "video": "https://www.youtube.com/watch?v=xxG-YfedrfU&ab_channel=SonyPicturesEntertainment",
+    "year": "2014",
+    "limit": 12,
+    "genre": "Sci-fi/Action ",
+    "isSeries": false,
+    "rating": 7.5,
+    "ratingStar": 3,
+    "numReviews": 0,
+    "price": 11.99,
+    "countInStock": 12,
+    "__v": 0,
+    "createdAt": {
+      "$date": "2021-12-09T04:49:22.537Z"
+    },
+    "updatedAt": {
+      "$date": "2021-12-09T04:49:22.537Z"
+    }
+  }
+]
