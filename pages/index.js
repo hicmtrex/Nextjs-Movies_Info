@@ -41,7 +41,9 @@ const Home = ({ productsProps }) => {
 };
 
 export const getStaticProps = async () => {
-  const { data } = await axios.get(`${server}/api/products`);
+  const { data } = await axios.get(
+    `https://nextjs-movies-info.vercel.app/api/products`
+  );
 
   return {
     props: {

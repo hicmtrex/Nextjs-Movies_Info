@@ -9,19 +9,24 @@ import { useUser } from '@auth0/nextjs-auth0';
 import Head from 'next/head';
 import axios from 'axios';
 
-const ProductDetail = () => {
+const ProductDetail = ({ product }) => {
   const router = useRouter();
-  const { addFavorite, removeFavorite, favorites, product, getProductById } =
-    useContext(MovieContext);
+  const {
+    addFavorite,
+    removeFavorite,
+    favorites,
+    product = productCtx,
+    getProductById,
+  } = useContext(MovieContext);
   const { user } = useUser();
   const isFavourite = favorites.find((f) => f._id === product._id);
-  const { id } = router.query;
+  // const { id } = router.query;
 
-  useEffect(() => {
-    getProductById(id);
-  }, [id]);
+  // useEffect(() => {
+  //   getProductById(id);
+  // }, [id]);
 
-  console.log(product);
+  // console.log(product);
   return (
     <>
       <Head>
@@ -99,27 +104,31 @@ const ProductDetail = () => {
   );
 };
 
-// export const getStaticProps = async (context) => {
-//   const { params } = context;
-//   const product = await getProductById(params.id);
+export const getStaticProps = async (context) => {
+  const { params } = context;
+  const { data } = await axios.get(
+    `https://nextjs-movies-info.vercel.app/api/products/${params.id}`
+  );
 
-//   return {
-//     props: {
-//       product,
-//     },
-//   };
-// };
+  return {
+    props: {
+      product: data,
+    },
+  };
+};
 
-// export const getStaticPaths = async () => {
-//   const products = await getAllProducts();
+export const getStaticPaths = async () => {
+  const { data } = await axios.get(
+    `https://nextjs-movies-info.vercel.app/api/products`
+  );
 
-//   const ids = products.map((product) => product._id);
-//   const params = ids.map((id) => ({ params: { id } }));
+  const ids = data.map((product) => product._id);
+  const params = ids.map((id) => ({ params: { id } }));
 
-//   return {
-//     paths: params,
-//     fallback: 'blocking',
-//   };
-// };
+  return {
+    paths: params,
+    fallback: 'blocking',
+  };
+};
 
 export default ProductDetail;
