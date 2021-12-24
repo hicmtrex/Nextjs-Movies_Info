@@ -65,11 +65,17 @@ const Header = () => {
             </Nav>
           ) : (
             <Nav>
-              <Link href='http://localhost:3000/api/auth/login' passHref>
+              <Link
+                href='https://nextjs-movies-info.vercel.app/api/auth/login'
+                passHref
+              >
                 <a className='nav-link'>Login</a>
               </Link>
 
-              <Link href='http://localhost:3000/api/auth/login' passHref>
+              <Link
+                href='https://nextjs-movies-info.vercel.app/api/auth/login'
+                passHref
+              >
                 <a className='nav-link'>Register</a>
               </Link>
             </Nav>
