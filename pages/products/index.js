@@ -1,7 +1,14 @@
+import { useContext, useEffect } from 'react';
 import { Col, Row } from 'react-bootstrap';
 import Product from '../../components/Product';
+import MovieContext from '../../context/context-app';
 
 const ProductsPage = ({ products }) => {
+  const { getProducts, products: productsCtx } = useContext(MovieContext);
+  useEffect(() => {
+    getProducts();
+  }, []);
+  console.log(productsCtx);
   return (
     <Row>
       {products.map((movie) => (

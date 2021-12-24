@@ -1,10 +1,12 @@
 import { useUser } from '@auth0/nextjs-auth0';
+import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import MovieContext from './context-app';
 
 const ContextProvider = ({ children }) => {
   const [favorites, setFavorites] = useState([]);
   const [products, setProducts] = useState([]);
+  const [product, setProduct] = useState({});
   const [search, setSearch] = useState('');
   const { user } = useUser();
 
@@ -21,6 +23,25 @@ const ContextProvider = ({ children }) => {
     setProducts(
       products.filter((i) => i.title.toLowerCase().includes(text.toLowerCase()))
     );
+  };
+
+  const getProducts = async () => {
+    try {
+      const { data } = await axios.get(`/api/products`);
+      setProducts(data);
+    } catch (error) {
+      console.log(error);
+    }
+  };
+
+  const getProductById = async (id) => {
+    try {
+      const { data } = await axios.get(`/api/products/${id}`);
+      console.log(data);
+      setProduct(data);
+    } catch (error) {
+      console.log(error);
+    }
   };
 
   useEffect(() => {
@@ -44,6 +65,9 @@ const ContextProvider = ({ children }) => {
     setProducts,
     search,
     setSearch,
+    getProductById,
+    product,
+    getProducts,
   };
   return (
     <MovieContext.Provider value={values}>{children}</MovieContext.Provider>

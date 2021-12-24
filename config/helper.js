@@ -1,9 +1,7 @@
 import axios from 'axios';
 
 const dev =
-  process.env.NODE_ENV === 'production'
-    ? 'http://localhost:3000'
-    : 'https://yourwebsite.com';
+  process.env.NODE_ENV === 'development' ? 'http://localhost:3000' : '';
 
 export const getAllProducts = async () => {
   try {

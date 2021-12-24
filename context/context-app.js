@@ -2,6 +2,7 @@ import { createContext } from 'react';
 
 const MovieContext = createContext({
   favorites: [],
+  product: {},
   products: [],
   setProducts: [],
   search: '',
@@ -11,6 +12,8 @@ const MovieContext = createContext({
   searchHandler: (text) => {},
   loadFavorites: (id) => {},
   saveFavorites: (id) => {},
+  getProductById: (id) => {},
+  getProducts: () => {},
 });
 
 export default MovieContext;
