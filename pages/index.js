@@ -1,9 +1,10 @@
 import { useUser } from '@auth0/nextjs-auth0';
+import axios from 'axios';
 import Head from 'next/head';
 import { useContext, useEffect, useState } from 'react';
 import Loader from '../components/Loader';
 import Paginate from '../components/Paginate';
-import { getAllProducts } from '../config/helper';
+import { getAllProducts, server } from '../config/helper';
 import MovieContext from '../context/context-app';
 import ProductsPage from './products';
 
@@ -40,13 +41,13 @@ const Home = ({ productsProps }) => {
 };
 
 export const getStaticProps = async () => {
-  const products = await getAllProducts();
+  const { data } = await axios.get(`${server}/api/products`);
 
   return {
     props: {
-      productsProps: products,
+      productsProps: data,
     },
-    revalidate: 600,
+    revalidate: 180,
   };
 };
 
