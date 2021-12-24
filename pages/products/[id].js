@@ -1,32 +1,23 @@
 import { useRouter } from 'next/router';
-import React, { useContext, useEffect, useState } from 'react';
+import React, { useContext, useEffect } from 'react';
 import { Col, Row, Image, ListGroup, Carousel } from 'react-bootstrap';
 import { BsFillStarFill } from 'react-icons/bs';
 import MovieContext from '../../context/context-app';
-//import { getAllProducts, getProductById } from '../../config/helper';
 import ReactPlayer from 'react-player/youtube';
 import { useUser } from '@auth0/nextjs-auth0';
 import Head from 'next/head';
-import axios from 'axios';
 
-const ProductDetail = ({ product }) => {
+const ProductDetail = () => {
   const router = useRouter();
-  const {
-    addFavorite,
-    removeFavorite,
-    favorites,
-    product = productCtx,
-    getProductById,
-  } = useContext(MovieContext);
+  const { addFavorite, removeFavorite, favorites, product, getProductById } =
+    useContext(MovieContext);
   const { user } = useUser();
   const isFavourite = favorites.find((f) => f._id === product._id);
-  // const { id } = router.query;
 
-  // useEffect(() => {
-  //   getProductById(id);
-  // }, [id]);
+  useEffect(() => {
+    getProductById(router.query.id);
+  }, [router]);
 
-  // console.log(product);
   return (
     <>
       <Head>
@@ -102,33 +93,6 @@ const ProductDetail = ({ product }) => {
       </Row>
     </>
   );
-};
-
-export const getStaticProps = async (context) => {
-  const { params } = context;
-  const { data } = await axios.get(
-    `https://nextjs-movies-info.vercel.app/api/products/${params.id}`
-  );
-
-  return {
-    props: {
-      product: data,
-    },
-  };
-};
-
-export const getStaticPaths = async () => {
-  const { data } = await axios.get(
-    `https://nextjs-movies-info.vercel.app/api/products`
-  );
-
-  const ids = data.map((product) => product._id);
-  const params = ids.map((id) => ({ params: { id } }));
-
-  return {
-    paths: params,
-    fallback: 'blocking',
-  };
 };
 
 export default ProductDetail;
