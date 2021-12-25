@@ -24,26 +24,32 @@ const ProductDetail = () => {
         <title>{product.title}</title>
         <meta name='description' content={product?.desc?.substring(0, 50)} />
       </Head>
-      <Row className='mt-3'>
-        <Col md={6}>
+      <Row className='mt-2'>
+        <Col sm={12} md={6}>
           <Carousel>
             <Carousel.Item>
               <Image
-                className='rounded'
-                style={{ height: '400px', width: '600px' }}
-                src={product.img}
+                style={{ height: '350px' }}
+                className='d-block w-100'
+                src={product.imgSm}
+                alt='First slide'
+                fluid
               />
+              <Carousel.Caption></Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
               <Image
-                className='rounded'
-                style={{ height: '400px', width: '600px' }}
-                src={product.imgSm}
+                style={{ height: '350px' }}
+                className='d-block w-100'
+                src={product.img}
+                alt='Second slide'
+                fluid
               />
+              <Carousel.Caption></Carousel.Caption>
             </Carousel.Item>
           </Carousel>
         </Col>
-        <Col md={6}>
+        <Col sm={12} md={4}>
           <ListGroup variant='flush'>
             <ListGroup.Item as='h3'>
               {product?.title}
@@ -62,7 +68,7 @@ const ProductDetail = () => {
               </span>
             </ListGroup.Item>
             <ListGroup.Item as='h6'>Genre : {product?.genre}</ListGroup.Item>
-            <ListGroup.Item as='h6'>
+            <ListGroup.Item>
               Type : {product?.isSeries ? 'Serie' : 'Movie'}
             </ListGroup.Item>
             <ListGroup.Item as='h6'>
@@ -83,7 +89,6 @@ const ProductDetail = () => {
       <Row className='mt-2'>
         <Col md={6}>
           <ReactPlayer
-            width='600px'
             height='400px'
             url={product?.trailer}
             controls={true}

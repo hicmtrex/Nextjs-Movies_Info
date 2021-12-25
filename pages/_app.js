@@ -11,16 +11,16 @@ function MyApp({ Component, pageProps }) {
     <UserProvider>
       <ContextProvider>
         <Header />
-        <div id='product__bg'>
+        <section id='product__bg'>
           <Container>
-            <main>
+            <main className='py-3'>
               <Component {...pageProps} />
             </main>
           </Container>
           <footer className='text-center text-warning py-3 mt-auto'>
             hicmtrex all copyrights reserved &copy; 2022
           </footer>
-        </div>
+        </section>
       </ContextProvider>
     </UserProvider>
   );
