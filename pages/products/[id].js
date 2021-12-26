@@ -1,5 +1,5 @@
 import { useRouter } from 'next/router';
-import React, { useContext, useEffect } from 'react';
+import React, { useContext } from 'react';
 import { Col, Row, Image, ListGroup, Carousel } from 'react-bootstrap';
 import { BsFillStarFill } from 'react-icons/bs';
 import MovieContext from '../../context/context-app';
@@ -20,13 +20,13 @@ const ProductDetail = ({ product }) => {
         <title>{product.title}</title>
         <meta name='description' content={product?.desc?.substring(0, 50)} />
       </Head>
-      <Row className='mt-2'>
-        <Col sm={12} md={6}>
+      <Row>
+        <Col sm={12} xs={12} md={6}>
           <Carousel>
             <Carousel.Item>
               <Image
                 style={{ height: '350px' }}
-                className='d-block w-100'
+                className='d-block w-100 rounded'
                 src={product.imgSm}
                 alt='First slide'
                 fluid
@@ -36,7 +36,7 @@ const ProductDetail = ({ product }) => {
             <Carousel.Item>
               <Image
                 style={{ height: '350px' }}
-                className='d-block w-100'
+                className='d-block w-100 rounded'
                 src={product.img}
                 alt='Second slide'
                 fluid
@@ -45,7 +45,7 @@ const ProductDetail = ({ product }) => {
             </Carousel.Item>
           </Carousel>
         </Col>
-        <Col sm={12} md={4}>
+        <Col sm={12} xs={12} md={6}>
           <ListGroup variant='flush'>
             <ListGroup.Item as='h3'>
               {product?.title}

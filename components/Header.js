@@ -26,7 +26,10 @@ const Header = () => {
         <Navbar.Toggle aria-controls='responsive-navbar-nav' />
         <Navbar.Collapse id='responsive-navbar-nav'>
           <Nav className='me-auto'>
-            <Form onSubmit={(e) => e.preventDefault()} className='d-flex'>
+            <Form
+              onSubmit={(e) => e.preventDefault()}
+              className='mt-xs-5 d-flex'
+            >
               <Form.Control
                 onChange={(e) => setSearch(e.target.value)}
                 value={search}

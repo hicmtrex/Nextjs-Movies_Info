@@ -1,4 +1,4 @@
-import { useUser } from '@auth0/nextjs-auth0';
+import { useUser, withPageAuthRequired } from '@auth0/nextjs-auth0';
 import React, { useContext, useEffect } from 'react';
 import { Alert, Col, Row } from 'react-bootstrap';
 import Loader from '../../components/Loader';
@@ -7,16 +7,9 @@ import Product from '../../components/Product';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 
-const Profile = () => {
-  const router = useRouter();
+const Profile = withPageAuthRequired(() => {
   const { favorites } = useContext(MovieContext);
   const { user, error, isLoading } = useUser();
-
-  useEffect(() => {
-    if (!user) {
-      router.push('/');
-    }
-  }, [user]);
 
   if (isLoading) return <Loader />;
 
@@ -43,6 +36,6 @@ const Profile = () => {
       </Row>
     </>
   );
-};
+});
 
 export default Profile;
