@@ -6,17 +6,13 @@ import MovieContext from '../../context/context-app';
 import ReactPlayer from 'react-player/youtube';
 import { useUser } from '@auth0/nextjs-auth0';
 import Head from 'next/head';
+import { getAllProducts, getProductById } from '../../config/helper';
 
-const ProductDetail = () => {
+const ProductDetail = ({ product }) => {
   const router = useRouter();
-  const { addFavorite, removeFavorite, favorites, product, getProductById } =
-    useContext(MovieContext);
+  const { addFavorite, removeFavorite, favorites } = useContext(MovieContext);
   const { user } = useUser();
   const isFavourite = favorites.find((f) => f._id === product._id);
-
-  useEffect(() => {
-    getProductById(router.query.id);
-  }, [router]);
 
   return (
     <>
@@ -98,6 +94,28 @@ const ProductDetail = () => {
       </Row>
     </>
   );
+};
+
+export const getStaticProps = async ({ params }) => {
+  const id = params.id;
+  const product = await getProductById(id);
+
+  return {
+    props: {
+      product,
+    },
+    revalidate: 180,
+  };
+};
+
+export const getStaticPaths = async () => {
+  const products = await getAllProducts();
+  const paths = products.map((product) => ({ params: { id: product._id } }));
+
+  return {
+    paths,
+    fallback: 'blocking',
+  };
 };
 
 export default ProductDetail;

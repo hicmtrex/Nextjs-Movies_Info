@@ -1,9 +1,9 @@
 import axios from 'axios';
 
-const dev = process.env.NODE_ENV !== 'production';
-export const server = dev
-  ? 'http://localhost:3000'
-  : 'https://nextjs-movies-info.vercel.app';
+export const server =
+  process.env.NODE_ENV === 'development'
+    ? 'http://localhost:3000'
+    : 'https://nextjs-movies-info.vercel.app';
 
 export const getAllProducts = async () => {
   try {

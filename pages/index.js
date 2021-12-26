@@ -1,12 +1,10 @@
 import { useUser } from '@auth0/nextjs-auth0';
 import Head from 'next/head';
-import { useContext, useEffect, useState } from 'react';
 import Loader from '../components/Loader';
-import Paginate from '../components/Paginate';
-import MovieContext from '../context/context-app';
+import { getAllProducts } from '../config/helper';
 import ProductsPage from './products';
 
-const Home = () => {
+const Home = ({ staticProducts }) => {
   const { isLoading } = useUser();
 
   return (
@@ -16,9 +14,24 @@ const Home = () => {
         <meta name='description' content='best movies and series in tv show' />
       </Head>
       <h1 className='text-center text-warning'>Tv Show</h1>
-      {isLoading ? <Loader /> : <ProductsPage />}
+      {isLoading ? (
+        <Loader />
+      ) : (
+        <ProductsPage staticProducts={staticProducts} />
+      )}
     </>
   );
+};
+
+export const getStaticProps = async () => {
+  const products = await getAllProducts();
+
+  return {
+    props: {
+      staticProducts: products,
+    },
+    revalidate: 600,
+  };
 };
 
 export default Home;

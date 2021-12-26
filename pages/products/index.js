@@ -2,17 +2,16 @@ import { useContext, useEffect, useState } from 'react';
 import { Col, Row } from 'react-bootstrap';
 import Paginate from '../../components/Paginate';
 import Product from '../../components/Product';
+import { getAllProducts } from '../../config/helper';
 import MovieContext from '../../context/context-app';
 
-const ProductsPage = () => {
-  const { products, setProducts, search, getProducts } =
-    useContext(MovieContext);
+const ProductsPage = ({ staticProducts }) => {
+  const { products, setProducts, search } = useContext(MovieContext);
   const [currentPage, setCurrentPage] = useState(1);
   const [postsPerPage, setPostsPerPage] = useState(16);
 
   useEffect(() => {
-    getProducts();
-    setProducts(products);
+    setProducts(staticProducts);
   }, [search]);
 
   const indexOfLastPost = currentPage * postsPerPage;
