@@ -27,9 +27,7 @@ const ContextProvider = ({ children }) => {
 
   const getProducts = async () => {
     try {
-      const { data } = await axios.get(
-        `https://nextjs-movies-info.vercel.app/api/products`
-      );
+      const { data } = await axios.get(`/api/products`);
       setProducts(data);
     } catch (error) {
       console.log(error);
@@ -38,9 +36,7 @@ const ContextProvider = ({ children }) => {
 
   const getProductById = async (id) => {
     try {
-      const { data } = await axios.get(
-        `https://nextjs-movies-info.vercel.app/api/products/${id}`
-      );
+      const { data } = await axios.get(`/api/products/${id}`);
       console.log(data);
       setProduct(data);
     } catch (error) {
