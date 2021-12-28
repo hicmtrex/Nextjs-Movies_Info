@@ -11,7 +11,7 @@ function MyApp({ Component, pageProps }) {
     <UserProvider>
       <ContextProvider>
         <Header />
-        <section id='product__bg'>
+        <div id='product__bg'>
           <Container>
             <main className='py-3'>
               <Component {...pageProps} />
@@ -20,7 +20,7 @@ function MyApp({ Component, pageProps }) {
           <footer className='text-center text-warning py-3 mt-auto'>
             hicmtrex all copyrights reserved &copy; 2022
           </footer>
-        </section>
+        </div>
       </ContextProvider>
     </UserProvider>
   );
